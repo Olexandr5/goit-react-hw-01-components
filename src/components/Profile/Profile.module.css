@@ -1,7 +1,7 @@
 .profile {
     width: 400px;
     padding: 10px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(215, 221, 226);
     margin-right: auto;
     margin-left: auto;
     border-radius: 6px;
@@ -31,12 +31,18 @@
 
 }
 
-.name,
-.quantity {
+.name {
     color: #494949;
     font-size: x-large;
     font-weight: 700;
     margin-bottom: 14px;
+}
+
+.quantity {
+    color: #494949;
+    font-size: x-large;
+    font-weight: 700;
+
 }
 
 .tag,
@@ -63,21 +69,23 @@
 
 }
 
-.list {
+.item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 87px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 
 }
 
-.list:last-child {
+.item:last-child {
     border-left: 1px solid rgb(97, 87, 87);
 
 }
 
-.list:first-child {
+.item:first-child {
     border-right: 1px solid rgb(97, 87, 87);
 
 }
